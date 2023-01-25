@@ -13,6 +13,20 @@ whether Mark has a higher BMI than John.
 Test data:
 § Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
 m tall.
+
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
 */
+
+const MarksWeight = 78;
+const MarksHeight = 1.69;
+const JohnsWeight = 92;
+const JohnsHeight = 1.95;
+const MarkBMI = MarksWeight / MarksHeight ** 2;
+const JohnsBMI = JohnsWeight / JohnsHeight ** 2;
+console.log(MarkBMI);
+console.log(JohnsBMI);
+console.log("MarkBMI " + MarkBMI);
+console.log("JohnsBMI " + JohnsBMI);
+let markHigherBMI;
+console.log(markHigherBMI);
