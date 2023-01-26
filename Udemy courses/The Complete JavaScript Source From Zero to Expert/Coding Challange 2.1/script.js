@@ -28,5 +28,5 @@ console.log(MarkBMI);
 console.log(JohnsBMI);
 console.log("MarkBMI " + MarkBMI);
 console.log("JohnsBMI " + JohnsBMI);
-let markHigherBMI;
+let markHigherBMI = MarkBMI > JohnsBMI;
 console.log(markHigherBMI);
